@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChocoDelights - Premium Chocolates</title>
+    <style>
+        /* Styles for the chocolate-themed background */
+        body {
+            background-color: #f7e6d9;
+            font-family: Arial, sans-serif;
+            color: #442c1e; /* Set text color for better contrast */
+        }
+        /* Header styles */
+        header {
+            background-color: #442c1e;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        /* Navigation menu styles */
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        /* Product images */
+        .product-image {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Footer styles */
+        footer {
+            background-color: #442c1e;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ChocoDelights</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Our Delicious Chocolates</h2>
+            <img class="product-image" src="chocolate-bar.jpg" alt="Chocolate Bar">
+            <p>Indulge in our handcrafted chocolate bars made from the finest cocoa beans.</p>
+            <img class="product-image" src="chocolate-candies.jpg" alt="Chocolate Candies">
+            <p>Explore our assortment of delightful chocolate candies, perfect for any occasion.</p>
+        </section>
+        <section>
+            <h2>Order Now</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        © 2024 ChocoDelights. All rights reserved.
+    </footer>
+</body>
+</html>
